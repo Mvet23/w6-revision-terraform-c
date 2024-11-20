@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "week6-casi-bucket-terraform"
+    bucket = ""
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "terraform-lock"
+    dynamodb_table = ""
     encrypt = true
   }
 }
